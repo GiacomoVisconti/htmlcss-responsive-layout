@@ -166,9 +166,32 @@ main {
         }
     }
 
-    /* BANNER SECTION*/
+    /* BANNER SECTION */
     .banner_container {
         display: none;
+        padding: 1rem 0;
+    }
+
+    /* ARTICLE SECTION */
+    .article_container {
+        padding: 1rem 0;
+        .article_title {
+            font-weight: 500;
+            font-size: 1.5rem;
+            .divisor {
+                margin-top: 0.5rem;
+                width: 4.5rem;
+                border: 1px solid orange;
+            }
+        }
+        .article_img {
+            padding: 1rem 0;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .article_text {
+            line-height: 2rem;
+        }
     }
 }
 
@@ -245,6 +268,14 @@ main {
         /* BANNER SECTION*/
         .banner_container {
             display: inline-block;
+        }
+        /* ARTICLE SECTION */
+        .article_container {
+            .article_img {
+                float: left;
+                width: 400px;
+                padding: 1rem 1rem 1rem 0;
+            }
         }
     }
 }
@@ -332,6 +363,14 @@ main {
         /* BANNER SECTION*/
         .banner_container {
             display: inline-block;
+        }
+        /* ARTICLE SECTION */
+        .article_container {
+            .article_img {
+                float: left;
+                width: 400px;
+                padding: 1rem 1rem 1rem 0;
+            }
         }
     }
 }
