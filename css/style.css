@@ -45,6 +45,21 @@ img {
     font-weight: 700;
 }
 
+.fa-facebook {
+    color: #1a77f3;
+}
+.fa-twitter {
+    color: #009eff;
+}
+.fa-instagram {
+    color: #e04176;
+}
+.fa-pinterest {
+    color: #e61d1d;
+}
+.fa-youtube {
+    color: #e62222;
+}
 /* #region Columns */
 
 .col_1 {
@@ -102,6 +117,8 @@ header {
 main {
     font-family: Montserrat, "Helvetica Neue", sans-serif;
     padding-top: 20px;
+
+    /* *CARD RECEPY SECTION */
     .title {
         color: var(--title_page_font_color);
         padding: 15px 0px;
@@ -116,7 +133,7 @@ main {
         }
     }
     .card {
-        box-shadow: lightgray 1px 1px;
+        box-shadow: lightgray 3px 3px 3px 3px;
         background-color: white;
         .recepy_details {
             padding: 1.5rem;
@@ -125,6 +142,26 @@ main {
             .recepy_details_list {
                 gap: 0.8rem 0;
                 font-size: 0.9rem;
+            }
+        }
+    }
+
+    /* *SOCIAL SECTION */
+    .social {
+        padding: 1.5rem 0;
+        justify-content: space-between;
+
+        .social_link {
+            text-align: center;
+            align-content: center;
+            box-shadow: lightgray 4px 4px 4px 4px;
+            width: 45px;
+            height: 40px;
+            border-radius: 40%;
+            background-color: white;
+
+            .social_link_name {
+                display: none;
             }
         }
     }
@@ -184,10 +221,20 @@ main {
         }
     }
     main {
+        /*card recepy section*/
         .title {
             font-size: 1.5rem;
             .secondary_title {
                 display: inline-block;
+            }
+        }
+
+        /*social section*/
+        .social {
+            .social_link {
+                width: 120px;
+                height: 35px;
+                border-radius: 50px;
             }
         }
     }
@@ -253,6 +300,24 @@ main {
             font-size: 1.5rem;
             .secondary_title {
                 display: inline-block;
+            }
+        }
+        /* social section */
+        .social {
+            .social_link {
+                width: 120px;
+                height: 35px;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                .social_link_name {
+                    font-size: 0.7rem;
+                    display: inline-block;
+                    font-weight: 600;
+                }
             }
         }
     }
